@@ -3,7 +3,27 @@
 {
     'name': 'Odoo Academy',
     
+    'summary': """Academy app to manage training""",
+    
+    'description': """
+        Academy Module to manage Training:
+        - Courses
+        - Sessions
+        - Attendees
+    """,
+    
+    'author': 'Carlos',
+    
+    'category': 'Training',
+    
+    'version': '0.1',
+    
     'depends': ['base'],
+    
+    'data': [
+        'views/course_views.xml',
+        'views/academy_menuitems.xml',
+    ],
     
     'demo': [
         'demo/academy_demo.xml',
