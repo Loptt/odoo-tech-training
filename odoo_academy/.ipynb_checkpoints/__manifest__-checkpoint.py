@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*- 
+
 {
-    'name': "Odoo Academy"
+    'name': 'Odoo Academy',
+    
+    'depends': ['base'],
+    
+    'demo': [
+        'demo/academy_demo.xml',
+    ]
 }
