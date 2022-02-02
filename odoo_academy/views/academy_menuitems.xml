@@ -22,7 +22,6 @@
                 </p>
             </field>
         </record>
-        
         <menuitem name="Odoo Academy"
                   id="menu_academy"
                   sequence="1"/>
@@ -37,7 +36,7 @@
                   parent="menu_academy_sub"
                   sequence="3"
                   action="course_list_action"/>
-        
+      
         <menuitem id="menu_academy_session"
                   name="Sessions"
                   parent="menu_academy_sub"

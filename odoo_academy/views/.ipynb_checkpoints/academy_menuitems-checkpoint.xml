@@ -22,7 +22,6 @@
                 </p>
             </field>
         </record>
-        
         <menuitem name="Odoo Academy"
                   id="menu_academy"
                   sequence="1"/>
