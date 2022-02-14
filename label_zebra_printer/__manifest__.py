@@ -21,6 +21,16 @@ This module provides to print product,location and shipping label from Zebra Pri
         'views/zebra_printer_view.xml',
         'views/res_company_view.xml',
     ],
+    'assets': {
+        'web.assets_backend': [
+            '/label_zebra_printer/static/src/lib/rsvp-3.1.0.min.js',        
+            '/label_zebra_printer/static/src/lib/sha-256.min.js',        
+            '/label_zebra_printer/static/src/lib/qz-tray.js',        
+            '/label_zebra_printer/static/src/lib/jsrsasign-latest-all-min.js', 
+            '/label_zebra_printer/static/src/lib/jsrsasign-latest-all-min.js',
+            '/label_zebra_printer/static/src/js/qweb_action_manager.js',
+        ],    
+    },
     'sequence': 1,
     'installable': True,
     'application': False,
