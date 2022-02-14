@@ -12,8 +12,4 @@
         report_type="qweb-pdf"
         name="label_zebra_printer.report_zebra_shipmentlabel"
         file="label_zebra_printer.report_zebra_shipmentlabel" />
-    <template id="assets_backend" name="zebra printer" inherit_id="web.assets_backend">
-        <xpath expr="." position="inside">
-        </xpath>
-    </template>
 </odoo>
